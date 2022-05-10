@@ -1,0 +1,24 @@
+@media (max-width: 71em) {
+  .hero {
+    max-width: 100rem;
+  }
+  body {
+    padding: 5rem;
+  }
+  .grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+  }
+  .grid1 {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 1rem;
+  }
+  .grid--2-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid--1-cols {
+    grid-template-columns: 1fr;
+  }
+}

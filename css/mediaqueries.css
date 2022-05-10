@@ -4,6 +4,7 @@
   }
   body {
     padding: 5rem;
+    padding-right: 4rem;
   }
   .grid {
     display: grid;

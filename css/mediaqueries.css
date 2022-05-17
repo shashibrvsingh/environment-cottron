@@ -56,5 +56,6 @@
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
     margin-left: 20rem;
+    margin-bottom: 0;
   }
 }

@@ -5,6 +5,10 @@ body {
   font-family: Verdana, sans-serif;
   margin: 0;
 }
+html {
+  /* 1rem = 16px by default  */
+  font-size: 62.5%;
+}
 .mySlides {
   display: none;
 }
@@ -16,7 +20,7 @@ img {
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 100rem;
   position: relative;
   margin: auto;
 }

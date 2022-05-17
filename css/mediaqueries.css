@@ -30,3 +30,12 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ***************************** */
+/* for mobile devices  */
+/* ******************************** */
+@media (max-width: 39em) {
+  .font-image {
+    margin-left: 2rem;
+  }
+}

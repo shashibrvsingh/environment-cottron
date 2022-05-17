@@ -114,6 +114,94 @@ section-front
 }
 
 /* 
+****************************
+Animation-opening-page
+*************************** */
+
+/* 
+****************************
+second-page
+*************************** */
+.power-section {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 8rem;
+  row-gap: 5rem;
+  margin-top: 6rem;
+  margin-left: 10rem;
+
+  justify-content: center;
+}
+
+.card-text-animation {
+  animation: moveInBottom 2s ease-in;
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  color: blueviolet;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.img-size {
+  width: 100%;
+  height: 30rem;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.card-text-primary {
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  padding-top: 2rem;
+  margin-left: 1.8rem;
+  margin-bottom: 1rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+
+  transition: all 0.3s;
+}
+
+.cards:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.282);
+  border: inset 4px solid rgb(240, 127, 46);
+}
+.icon-size {
+  height: 10rem;
+  width: 10rem;
+  color: aqua;
+}
+
+.arrow-icon {
+  height: 2rem;
+  width: 2rem;
+}
+.handshake {
+  text-align: center;
+}
+.arrow-text {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.card-text {
+  color: darkgreen;
+}
+.card-text {
+  font-size: 2rem;
+}
+/* 
+****************************
+third-page
+*************************** */
+
+/* 
 ***********************
 Animation -Zone
 *********************** */

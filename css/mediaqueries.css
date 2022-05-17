@@ -38,4 +38,23 @@
   .font-image {
     margin-left: 2rem;
   }
+  .grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 5rem;
+  }
+
+  .grid--1-cols {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 22em) {
+  .grid--1-cols {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    margin-left: 20rem;
+  }
 }

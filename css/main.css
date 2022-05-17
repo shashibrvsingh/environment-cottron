@@ -131,7 +131,7 @@ second-page
   column-gap: 8rem;
   row-gap: 5rem;
   margin-top: 6rem;
-  margin-left: 10rem;
+  /* margin-left: 10rem; */
 
   justify-content: center;
 }

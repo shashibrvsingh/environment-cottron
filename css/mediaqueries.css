@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 22em) {
+@media (max-width: 25em) {
   .grid--1-cols {
     grid-template-columns: 1fr;
     justify-content: center;

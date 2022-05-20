@@ -53,9 +53,34 @@
 
 @media (max-width: 22em) {
   .grid--1-cols {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: 1fr;
     justify-content: center;
-    margin-left: 20rem;
+    align-items: center;
+
+    /* margin-left: 20rem; */
     margin-bottom: 0;
+  }
+  .img-size {
+    width: 150%;
+  }
+  .cards {
+    flex-grow: 1;
+    width: 320px;
+  }
+
+  .front-description-text-tertiary {
+    font-size: 6rem;
+  }
+  .front-description {
+    margin-left: 13rem;
+  }
+  .front-image {
+    margin-left: 10rem;
+  }
+  .nav-icon {
+    margin-left: -8rem;
+  }
+  .face1 {
+    margin-left: -6rem;
   }
 }

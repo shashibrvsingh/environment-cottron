@@ -53,6 +53,7 @@
 
 @media (max-width: 25em) {
   .grid--1-cols {
+    display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
@@ -60,12 +61,12 @@
     /* margin-left: 20rem; */
     margin-bottom: 0;
   }
-  .img-size {
+  /* .img-size {
     width: 150%;
-  }
+  } */
   .cards {
-    flex-grow: 1;
-    width: 320px;
+    width: 380px;
+    margin-left: 11rem;
   }
 
   .front-description-text-tertiary {

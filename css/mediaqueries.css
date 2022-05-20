@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 20em) {
+@media (max-width: 30em) {
   .grid--1-cols {
     display: grid;
     grid-template-columns: 1fr;
@@ -66,14 +66,14 @@
   } */
   .cards {
     width: 380px;
-    margin-left: 11rem;
+    margin-left: 2rem;
   }
 
   .front-description-text-tertiary {
     font-size: 6rem;
   }
   .front-description {
-    margin-left: 13rem;
+    margin-left: 4rem;
   }
   .front-image {
     margin-left: 10rem;
